@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.ts"
+    "vercel-build": "echo hello",
+    "postinstall": "prisma generate"
   },
   "keywords": [],
   "author": "",
