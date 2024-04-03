@@ -2,7 +2,7 @@
 
 This API is based on the https://swapi.dev/ api.
 
-Thre is a deployed version on this url: [https://star-wars-backend-omega.vercel.app/](https://star-wars-backend-omega.vercel.app/)
+There is a deployed version on this url: [https://star-wars-backend-omega.vercel.app/](https://star-wars-backend-omega.vercel.app/)
 
 It handles the following api routes:
 
