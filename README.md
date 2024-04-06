@@ -28,6 +28,12 @@ npm install
 2. Setup the database: (I used supabase in this case). https://supabase.com/partners/integrations/prisma
 3. Make sure you get the correct connection strings and store them in your .env file in root directory. You can use the connection string I will provide privately to connect to the db I already deployed.
 
+```bash
+DATABASE_URL=<DATABASE_URL>
+DIRECT_URL=<DIRECT_URL>
+SWAPI_URL="https://swapi.dev/api"
+```
+
 4. If you are deploying the project for the first time, run the seed.ts script in /src/scripts/seed.ts to populate the db using data from de swapi api.
 
 5. Run the command
